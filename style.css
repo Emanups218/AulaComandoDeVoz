@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #faf6ba;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbot{
+    width: 500px;
+    max-width: 95%;
+    background: #fffef9;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 12);
+
+}
+
+header{
+    background: #fff67b;
+    color: #474103;
+    padding: 20px;
+}
+
+header{
+    margin-bottom: 5px;
+}
+
+.conversa{
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.mensagem{
+    max-width: 80%;
+    padding: 12px 16px;
+    border-radius: 12px;
+}
+
+.usuario{
+    background-color: rgb(250, 247, 101);
+    color: rgb(27, 27, 26);
+    align-self: flex-start;
+}
+
+.bot{
+    background: #faf6ba;
+    color: black;
+    align-self: flex-start;
+
+}
+
+.controles{
+    padding: 15px;
+    display: flex;
+    gap: 8px;
+    border-top: 1px solid #d4cc9d;
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #474103;
+    border-radius: 8px;
+}
+
+button{
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #fff67b;
+    color: rgb(73, 73, 73);
+    font-weight: 600;
+}
+
+button:hover{
+    background: #aa972a;
+}
+
+#btnFalar{
+    background: #dad7c8;
+}
+
+#btnFalar:hover{
+    background: #fff67b;
+}
+
+#status{
+    text-align: center;
+    min-height: 30px;
+    padding: 5px;
+    color: rgb(250, 243, 181);
+}
